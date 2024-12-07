@@ -1,0 +1,65 @@
+.end {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+    
+
+}
+.end div{
+    display: flex;
+    align-items: center;
+    padding:1%;
+
+}
+
+.end img {
+    width: 30vw;
+    height: 8vh;
+    margin-right: 10px;
+}
+
+.music img {
+    margin-right: 2%;
+}
+
+.shows {
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    margin-left: 1%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.shows div {
+    background-color: black;
+    height: 22vh;
+    padding: 20px;
+    margin: 20px 15px;
+    width: 9vw;
+}
+
+.shows div img {
+    width: 9vw;
+    height: 18vh;
+}
+.end div img{
+    height: 2vh;
+    width:2vw;
+}
+#last{
+    height: 10vh;
+    width: 6vw;
+}
+.musicplayer{
+    height: 200px;
+    width: 200px;
+    margin: 20px 140px;
+}
+.right{
+    height: 0.9px;
+    width: 0.9px;
+    margin: 20px 20px;
+}
